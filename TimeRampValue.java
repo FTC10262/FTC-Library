@@ -1,9 +1,5 @@
 package org.firstinspires.ftc.teamcode;
 
-/**
- * Created by phurley on 10/27/17.
- */
-
 public class TimeRampValue {
     private double start, finish, range;
     private long duration;

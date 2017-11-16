@@ -17,12 +17,10 @@ import java.util.List;
 import java.util.Properties;
 import java.util.Vector;
 
-/**
- * Created by phurley on 11/10/17.
- */
-
 public class ConstantsBase {
 
+    // feel free to override this method to use a different 
+    // filename
     public static String getFileName() {
         File file = new File("/sdcard", "calibration.properties");
         return file.getAbsolutePath();
